@@ -1,0 +1,16 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "453abdb38344ec9fe4b93a72e2037ed9"
+build_time: [538783497, 932583000]
+inputs:
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/GithubSearchRepositoriesImpl.swift": [538781523, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/GtihubClientConstants.swift": [538733129, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/GithubSearchRepositoriesPresenter.swift": [538782846, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/Item.swift": [538781803, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/SearchResponse.swift": [538781812, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/GithubSearchRepositoriesView.swift": [538781856, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/GithubSearchRepositoriesUseCase.swift": [538782041, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/ViewController.swift": [538783495, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/GithubService.swift": [538781411, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/Owner.swift": [538731378, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/GithubSearchRepository.swift": [538727080, 0]
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Clean-Architecture-Github-API/AppDelegate.swift": [538687936, 0]

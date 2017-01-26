@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "70d84e248099f5b0e3de39f2cc624c38"
+build_time: [538730533, 451974000]
+inputs:
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [538730495, 0]

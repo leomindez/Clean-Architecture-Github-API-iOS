@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GithubSearchRepositoriesPresenter"
+provides-nominal:
+- "C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter"
+provides-member:
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "GithubSearchRepositoriesPresenter"
+- "GithubSearchRepositoriesView"
+- "AssignmentPrecedence"
+- "String"
+- !private "MainScheduler"
+- "GithubSearchRepositoriesUseCase"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "MainScheduler"]
+- !private ["Ps9AnyObject", "githubSearchRepositoriesUseCase"]
+- !private ["Ps9AnyObject", "githubSearchRepositoriesView"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "items"]
+- !private ["Ps9AnyObject", "observeOn"]
+- !private ["Ps9AnyObject", "searchGithubRepositores"]
+- !private ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", ""]
+- !private ["P12ObjectMapper12BaseMappable", "items"]
+- ["P7RxSwift10Disposable", "deinit"]
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "GithubSearchRepositoriesUseCase"]
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "GithubSearchRepositoriesView"]
+- !private ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "MainScheduler"]
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "String"]
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "deinit"]
+- !private ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "githubSearchRepositoriesUseCase"]
+- !private ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "githubSearchRepositoriesView"]
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "init"]
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "onSearchGithubRepositories"]
+- ["C29Clean_Architecture_Github_API31GithubSearchRepositoriesUseCase", "deinit"]
+- !private ["C29Clean_Architecture_Github_API31GithubSearchRepositoriesUseCase", "searchGithubRepositores"]
+- ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "deinit"]
+- !private ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "onShowGithubRepositores"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "instance"]
+- ["C7RxSwift13MainScheduler", "deinit"]
+- !private ["C7RxSwift13MainScheduler", "instance"]
+- !private ["P12ObjectMapper8Mappable", "items"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "observeOn"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "observeOn"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "observeOn"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- !private ["P7RxSwift13SchedulerType", "instance"]
+- !private ["C29Clean_Architecture_Github_API14SearchResponse", "deinit"]
+- !private ["C29Clean_Architecture_Github_API14SearchResponse", "items"]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "instance"]
+- ["SS", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P12ObjectMapper12BaseMappable"
+- "P7RxSwift10Disposable"
+- "C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter"
+- "C29Clean_Architecture_Github_API31GithubSearchRepositoriesUseCase"
+- "P29Clean_Architecture_Github_API28GithubSearchRepositoriesView"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- "C7RxSwift13MainScheduler"
+- !private "P12ObjectMapper8Mappable"
+- "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift13SchedulerType"
+- !private "C29Clean_Architecture_Github_API14SearchResponse"
+- !private "C7RxSwift28SerialDispatchQueueScheduler"
+- "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "5acd411bd5e0b05e0fbe511cddc2fcf3"

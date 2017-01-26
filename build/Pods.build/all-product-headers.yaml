@@ -1,0 +1,114 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Pods_Clean_Architecture_Github_API.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Clean-Architecture-Github-API-umbrella.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Pods/Target Support Files/Pods-Clean-Architecture-Github-API/Pods-Clean-Architecture-Github-API-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Clean_Architecture_Github_API-Swift.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Pods_Clean_Architecture_Github_API.framework/Headers/Pods_Clean_Architecture_Github_API-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Pods_Clean_Architecture_Github_API.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Pods.build/Debug-iphonesimulator/Pods-Clean-Architecture-Github-API.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxSwift-Swift.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxSwift-umbrella.h",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

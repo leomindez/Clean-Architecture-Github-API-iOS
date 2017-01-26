@@ -8,10 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GithubSearchRepositoriesView {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let githubService = GithubService()
+        let githubSearchRepository = GithubSearchRepositoryImpl(githubService: githubService)
+        
+        let githubSearchRepositoresUseCase = GithubSearchRepositoriesUseCase(githubSearchRepository: githubSearchRepository)
+        
+        let githubSearchRepositoresPresenter = GithubSearchRepositoriesPresenter(githubSearchRepositoriesUseCase:githubSearchRepositoresUseCase,githubSearchRepositoriesView: self)
+        
+        githubSearchRepositoresPresenter.onSearchGithubRepositories(topic: "android")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +30,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func onShowGithubRepositores(repositories: Array<Item>) {
+       NSLog(repositories.toJSONString()!)
+    }
+    
+    func onShowGithubRepositoresError(error: String) {
+        
+    }
+    
 }
 

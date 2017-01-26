@@ -1,0 +1,430 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C29Clean_Architecture_Github_API14ViewController"
+provides-member:
+- ["C29Clean_Architecture_Github_API14ViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "onShowGithubRepositoresError"
+depends-top-level:
+- !private "GithubSearchRepositoriesUseCase"
+- !private "StringLiteralType"
+- !private "GithubService"
+- "Array"
+- "Item"
+- !private "GithubSearchRepositoryImpl"
+- "UIViewController"
+- "String"
+- !private "NSLog"
+- "ViewController"
+- "GithubSearchRepositoriesView"
+- !private "GithubSearchRepositoriesPresenter"
+depends-member:
+- !private ["Ps9AnyObject", "GithubSearchRepositoriesPresenter"]
+- !private ["Ps9AnyObject", "GithubSearchRepositoriesUseCase"]
+- !private ["Ps9AnyObject", "GithubSearchRepositoryImpl"]
+- !private ["Ps9AnyObject", "GithubService"]
+- !private ["Ps9AnyObject", "NSLog"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "onSearchGithubRepositories"]
+- ["Ps9AnyObject", "onShowGithubRepositores"]
+- ["Ps9AnyObject", "onShowGithubRepositoresError"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- !private ["Sa", "toJSONString"]
+- !private ["Ps23BidirectionalCollection", "toJSONString"]
+- !private ["Ps22BidirectionalIndexable", "toJSONString"]
+- !private ["Ps7CVarArg", "GithubSearchRepositoriesPresenter"]
+- !private ["Ps7CVarArg", "GithubSearchRepositoriesUseCase"]
+- !private ["Ps7CVarArg", "GithubSearchRepositoryImpl"]
+- !private ["Ps7CVarArg", "GithubService"]
+- !private ["Ps7CVarArg", "NSLog"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "onShowGithubRepositores"]
+- ["Ps7CVarArg", "onShowGithubRepositoresError"]
+- !private ["Ps7CVarArg", "toJSONString"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "toJSONString"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "GithubSearchRepositoriesPresenter"]
+- !private ["Ps28CustomDebugStringConvertible", "GithubSearchRepositoriesUseCase"]
+- !private ["Ps28CustomDebugStringConvertible", "GithubSearchRepositoryImpl"]
+- !private ["Ps28CustomDebugStringConvertible", "GithubService"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLog"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "onShowGithubRepositores"]
+- ["Ps28CustomDebugStringConvertible", "onShowGithubRepositoresError"]
+- !private ["Ps28CustomDebugStringConvertible", "toJSONString"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "toJSONString"]
+- !private ["Ps23CustomStringConvertible", "GithubSearchRepositoriesPresenter"]
+- !private ["Ps23CustomStringConvertible", "GithubSearchRepositoriesUseCase"]
+- !private ["Ps23CustomStringConvertible", "GithubSearchRepositoryImpl"]
+- !private ["Ps23CustomStringConvertible", "GithubService"]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "onShowGithubRepositores"]
+- ["Ps23CustomStringConvertible", "onShowGithubRepositoresError"]
+- !private ["Ps23CustomStringConvertible", "toJSONString"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "GithubSearchRepositoriesPresenter"]
+- !private ["Ps9Equatable", "GithubSearchRepositoriesUseCase"]
+- !private ["Ps9Equatable", "GithubSearchRepositoryImpl"]
+- !private ["Ps9Equatable", "GithubService"]
+- !private ["Ps9Equatable", "NSLog"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "onShowGithubRepositores"]
+- ["Ps9Equatable", "onShowGithubRepositoresError"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "toJSONString"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "deinit"]
+- !private ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "init"]
+- !private ["C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter", "onSearchGithubRepositories"]
+- ["C29Clean_Architecture_Github_API31GithubSearchRepositoriesUseCase", "deinit"]
+- !private ["C29Clean_Architecture_Github_API31GithubSearchRepositoriesUseCase", "init"]
+- !private ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "GithubSearchRepositoriesPresenter"]
+- !private ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "GithubSearchRepositoriesUseCase"]
+- !private ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "GithubSearchRepositoryImpl"]
+- !private ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "GithubService"]
+- !private ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "NSLog"]
+- ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "onShowGithubRepositores"]
+- ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", "onShowGithubRepositoresError"]
+- ["P29Clean_Architecture_Github_API28GithubSearchRepositoriesView", ""]
+- !private ["P29Clean_Architecture_Github_API22GithubSearchRepository", "init"]
+- ["C29Clean_Architecture_Github_API26GithubSearchRepositoryImpl", "deinit"]
+- !private ["C29Clean_Architecture_Github_API26GithubSearchRepositoryImpl", "init"]
+- ["C29Clean_Architecture_Github_API13GithubService", "deinit"]
+- !private ["C29Clean_Architecture_Github_API13GithubService", "init"]
+- !private ["Ps8Hashable", "GithubSearchRepositoriesPresenter"]
+- !private ["Ps8Hashable", "GithubSearchRepositoriesUseCase"]
+- !private ["Ps8Hashable", "GithubSearchRepositoryImpl"]
+- !private ["Ps8Hashable", "GithubService"]
+- !private ["Ps8Hashable", "NSLog"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "onShowGithubRepositores"]
+- ["Ps8Hashable", "onShowGithubRepositoresError"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "toJSONString"]
+- !private ["Ps13IndexableBase", "toJSONString"]
+- !private ["C29Clean_Architecture_Github_API4Item", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "toJSONString"]
+- !private ["Ps16MutableIndexable", "toJSONString"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo8NSCoding", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo8NSCoding", "GithubSearchRepositoryImpl"]
+- !private ["PSo8NSCoding", "GithubService"]
+- !private ["PSo8NSCoding", "NSLog"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "onShowGithubRepositores"]
+- ["PSo8NSCoding", "onShowGithubRepositoresError"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo26NSExtensionRequestHandling", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo26NSExtensionRequestHandling", "GithubSearchRepositoryImpl"]
+- !private ["PSo26NSExtensionRequestHandling", "GithubService"]
+- !private ["PSo26NSExtensionRequestHandling", "NSLog"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "onShowGithubRepositores"]
+- ["PSo26NSExtensionRequestHandling", "onShowGithubRepositoresError"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Array"]
+- !private ["CSo8NSObject", "GithubSearchRepositoriesPresenter"]
+- !private ["CSo8NSObject", "GithubSearchRepositoriesUseCase"]
+- !private ["CSo8NSObject", "GithubSearchRepositoryImpl"]
+- !private ["CSo8NSObject", "GithubService"]
+- ["CSo8NSObject", "Item"]
+- !private ["CSo8NSObject", "NSLog"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "onShowGithubRepositores"]
+- ["CSo8NSObject", "onShowGithubRepositoresError"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo16NSObjectProtocol", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo16NSObjectProtocol", "GithubSearchRepositoryImpl"]
+- !private ["PSo16NSObjectProtocol", "GithubService"]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "onShowGithubRepositores"]
+- ["PSo16NSObjectProtocol", "onShowGithubRepositoresError"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "toJSONString"]
+- !private ["Ps21RandomAccessIndexable", "toJSONString"]
+- !private ["Ps26RangeReplaceableCollection", "toJSONString"]
+- !private ["Ps25RangeReplaceableIndexable", "toJSONString"]
+- !private ["P7RxSwift18ReactiveCompatible", "GithubSearchRepositoriesPresenter"]
+- !private ["P7RxSwift18ReactiveCompatible", "GithubSearchRepositoriesUseCase"]
+- !private ["P7RxSwift18ReactiveCompatible", "GithubSearchRepositoryImpl"]
+- !private ["P7RxSwift18ReactiveCompatible", "GithubService"]
+- !private ["P7RxSwift18ReactiveCompatible", "NSLog"]
+- ["P7RxSwift18ReactiveCompatible", "didReceiveMemoryWarning"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- ["P7RxSwift18ReactiveCompatible", "onShowGithubRepositores"]
+- ["P7RxSwift18ReactiveCompatible", "onShowGithubRepositoresError"]
+- ["P7RxSwift18ReactiveCompatible", "viewDidLoad"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- !private ["Ps8Sequence", "toJSONString"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo21UIAppearanceContainer", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo21UIAppearanceContainer", "GithubSearchRepositoryImpl"]
+- !private ["PSo21UIAppearanceContainer", "GithubService"]
+- !private ["PSo21UIAppearanceContainer", "NSLog"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "onShowGithubRepositores"]
+- ["PSo21UIAppearanceContainer", "onShowGithubRepositoresError"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo18UIContentContainer", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo18UIContentContainer", "GithubSearchRepositoryImpl"]
+- !private ["PSo18UIContentContainer", "GithubService"]
+- !private ["PSo18UIContentContainer", "NSLog"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "onShowGithubRepositores"]
+- ["PSo18UIContentContainer", "onShowGithubRepositoresError"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo18UIFocusEnvironment", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo18UIFocusEnvironment", "GithubSearchRepositoryImpl"]
+- !private ["PSo18UIFocusEnvironment", "GithubService"]
+- !private ["PSo18UIFocusEnvironment", "NSLog"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "onShowGithubRepositores"]
+- ["PSo18UIFocusEnvironment", "onShowGithubRepositoresError"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Array"]
+- !private ["CSo11UIResponder", "GithubSearchRepositoriesPresenter"]
+- !private ["CSo11UIResponder", "GithubSearchRepositoriesUseCase"]
+- !private ["CSo11UIResponder", "GithubSearchRepositoryImpl"]
+- !private ["CSo11UIResponder", "GithubService"]
+- ["CSo11UIResponder", "Item"]
+- !private ["CSo11UIResponder", "NSLog"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "onShowGithubRepositores"]
+- ["CSo11UIResponder", "onShowGithubRepositoresError"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo30UIResponderStandardEditActions", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo30UIResponderStandardEditActions", "GithubSearchRepositoryImpl"]
+- !private ["PSo30UIResponderStandardEditActions", "GithubService"]
+- !private ["PSo30UIResponderStandardEditActions", "NSLog"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "onShowGithubRepositores"]
+- ["PSo30UIResponderStandardEditActions", "onShowGithubRepositoresError"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo16UIStateRestoring", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo16UIStateRestoring", "GithubSearchRepositoryImpl"]
+- !private ["PSo16UIStateRestoring", "GithubService"]
+- !private ["PSo16UIStateRestoring", "NSLog"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "onShowGithubRepositores"]
+- ["PSo16UIStateRestoring", "onShowGithubRepositoresError"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "GithubSearchRepositoriesPresenter"]
+- !private ["PSo18UITraitEnvironment", "GithubSearchRepositoriesUseCase"]
+- !private ["PSo18UITraitEnvironment", "GithubSearchRepositoryImpl"]
+- !private ["PSo18UITraitEnvironment", "GithubService"]
+- !private ["PSo18UITraitEnvironment", "NSLog"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "onShowGithubRepositores"]
+- ["PSo18UITraitEnvironment", "onShowGithubRepositoresError"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Array"]
+- !private ["CSo16UIViewController", "GithubSearchRepositoriesPresenter"]
+- !private ["CSo16UIViewController", "GithubSearchRepositoriesUseCase"]
+- !private ["CSo16UIViewController", "GithubSearchRepositoryImpl"]
+- !private ["CSo16UIViewController", "GithubService"]
+- ["CSo16UIViewController", "Item"]
+- !private ["CSo16UIViewController", "NSLog"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "onShowGithubRepositores"]
+- ["CSo16UIViewController", "onShowGithubRepositoresError"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- ["C29Clean_Architecture_Github_API14ViewController", "Array"]
+- !private ["C29Clean_Architecture_Github_API14ViewController", "GithubSearchRepositoriesPresenter"]
+- !private ["C29Clean_Architecture_Github_API14ViewController", "GithubSearchRepositoriesUseCase"]
+- !private ["C29Clean_Architecture_Github_API14ViewController", "GithubSearchRepositoryImpl"]
+- !private ["C29Clean_Architecture_Github_API14ViewController", "GithubService"]
+- ["C29Clean_Architecture_Github_API14ViewController", "Item"]
+- !private ["C29Clean_Architecture_Github_API14ViewController", "NSLog"]
+- ["C29Clean_Architecture_Github_API14ViewController", "String"]
+- ["C29Clean_Architecture_Github_API14ViewController", "deinit"]
+- ["C29Clean_Architecture_Github_API14ViewController", "didReceiveMemoryWarning"]
+- ["C29Clean_Architecture_Github_API14ViewController", "init"]
+- ["C29Clean_Architecture_Github_API14ViewController", "onShowGithubRepositores"]
+- ["C29Clean_Architecture_Github_API14ViewController", "onShowGithubRepositoresError"]
+- ["C29Clean_Architecture_Github_API14ViewController", "viewDidLoad"]
+- !private ["Ps14_ArrayProtocol", "toJSONString"]
+- !private ["Ps24_DestructorSafeContainer", "toJSONString"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "GithubSearchRepositoriesPresenter"]
+- !private ["Ps9_Hashable", "GithubSearchRepositoriesUseCase"]
+- !private ["Ps9_Hashable", "GithubSearchRepositoryImpl"]
+- !private ["Ps9_Hashable", "GithubService"]
+- !private ["Ps9_Hashable", "NSLog"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "onShowGithubRepositores"]
+- ["Ps9_Hashable", "onShowGithubRepositoresError"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "toJSONString"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C29Clean_Architecture_Github_API33GithubSearchRepositoriesPresenter"
+- "C29Clean_Architecture_Github_API31GithubSearchRepositoriesUseCase"
+- "P29Clean_Architecture_Github_API28GithubSearchRepositoriesView"
+- !private "P29Clean_Architecture_Github_API22GithubSearchRepository"
+- "C29Clean_Architecture_Github_API26GithubSearchRepositoryImpl"
+- "C29Clean_Architecture_Github_API13GithubService"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "C29Clean_Architecture_Github_API4Item"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "P7RxSwift18ReactiveCompatible"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "P9Alamofire14URLConvertible"
+- "C29Clean_Architecture_Github_API14ViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "267a49fc9fad64659cb1fa2d94e8a4c8"

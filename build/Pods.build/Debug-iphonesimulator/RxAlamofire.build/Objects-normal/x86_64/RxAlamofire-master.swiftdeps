@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "c251d8da242586d36a296532851b044e"
+build_time: [538730532, 361690000]
+inputs:
+  "/Users/Leo/Documents/iOS/Clean-Architecture-Github-API/Pods/RxAlamofire/Sources/RxAlamofire.swift": [538727568, 0]
