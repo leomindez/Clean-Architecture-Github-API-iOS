@@ -13,19 +13,19 @@ provides-member:
 - ["C7RxSwift28ConnectableObservableAdapter", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConnectableObservable"
-- "ObserverType"
-- !private "abstractMethod"
 - "SubjectType"
-- "AssignmentPrecedence"
-- "ConnectableObservableType"
-- "Observable"
-- "NSRecursiveLock"
-- "Connection"
-- !private "StringLiteralType"
 - !private "==="
-- "ConnectableObservableAdapter"
+- "AssignmentPrecedence"
+- "Observable"
+- !private "abstractMethod"
+- !private "StringLiteralType"
+- "ObserverType"
 - "Disposable"
+- "ConnectableObservable"
+- "ConnectableObservableType"
+- "Connection"
+- "ConnectableObservableAdapter"
+- "NSRecursiveLock"
 depends-member:
 - !private ["Ps9AnyObject", "Connection"]
 - !private ["Ps9AnyObject", "E"]

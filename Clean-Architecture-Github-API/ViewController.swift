@@ -20,7 +20,7 @@ class ViewController: UIViewController, GithubSearchRepositoriesView {
         
         let githubSearchRepositoresPresenter = GithubSearchRepositoriesPresenter(githubSearchRepositoriesUseCase:githubSearchRepositoresUseCase,githubSearchRepositoriesView: self)
         
-        githubSearchRepositoresPresenter.onSearchGithubRepositories(topic: "android")
+        githubSearchRepositoresPresenter.onSearchGithubRepositories(topic: "ios")
         
         // Do any additional setup after loading the view, typically from a nib.
     }

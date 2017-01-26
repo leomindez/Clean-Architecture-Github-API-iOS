@@ -7,10 +7,10 @@ provides-member:
 - ["V7RxSwift22InvocableScheduledItem", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "InvocableType"
-- "AssignmentPrecedence"
 - "InvocableWithValueType"
+- "AssignmentPrecedence"
 - "InvocableScheduledItem"
+- "InvocableType"
 depends-member:
 - ["V7RxSwift22InvocableScheduledItem", "I"]
 - ["V7RxSwift22InvocableScheduledItem", "_invocable"]

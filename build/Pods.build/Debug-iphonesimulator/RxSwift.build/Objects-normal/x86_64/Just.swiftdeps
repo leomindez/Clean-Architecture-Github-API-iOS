@@ -14,19 +14,19 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Sink"
-- "ImmediateSchedulerType"
+- !private "Disposables"
 - !private "FloatLiteralType"
-- "JustScheduledSink"
+- "ImmediateSchedulerType"
 - !private "IntegerLiteralType"
 - "AssignmentPrecedence"
-- "JustScheduled"
-- "Cancelable"
-- !private "Disposables"
-- !private "StringLiteralType"
 - "Just"
+- !private "StringLiteralType"
+- "JustScheduledSink"
+- "Cancelable"
 - "ObserverType"
-- "Producer"
+- "JustScheduled"
 - "Disposable"
+- "Producer"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - !private ["Ps9AnyObject", "JustScheduledSink"]

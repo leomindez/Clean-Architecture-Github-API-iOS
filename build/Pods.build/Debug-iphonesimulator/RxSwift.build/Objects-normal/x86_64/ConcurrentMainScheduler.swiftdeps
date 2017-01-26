@@ -7,16 +7,16 @@ provides-member:
 - ["C7RxSwift23ConcurrentMainScheduler", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "SingleAssignmentDisposable"
+- "ConcurrentMainScheduler"
 - "SchedulerType"
 - "Foundation"
-- "Disposable"
-- "ConcurrentMainScheduler"
-- "CastingPrecedence"
-- "Date"
-- !private "AssignmentPrecedence"
 - "DispatchQueue"
 - "MainScheduler"
+- "Disposable"
+- !private "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Date"
+- !private "SingleAssignmentDisposable"
 depends-member:
 - ["Ps9AnyObject", "ConcurrentMainScheduler"]
 - !private ["Ps9AnyObject", "DispatchQueue"]

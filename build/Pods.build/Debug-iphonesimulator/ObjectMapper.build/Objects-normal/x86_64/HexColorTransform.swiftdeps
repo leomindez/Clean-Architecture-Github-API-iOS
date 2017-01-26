@@ -7,26 +7,26 @@ provides-member:
 - ["C12ObjectMapper17HexColorTransform", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private ">>"
 - !private "CGFloat"
-- !private "&"
-- !private "UnicodeScalarType"
+- "String"
+- !private "/"
 - "CastingPrecedence"
 - !private "CUnsignedLongLong"
-- "AssignmentPrecedence"
-- "String"
+- "UIColor"
 - !private "~="
-- "Bool"
-- !private "StringLiteralType"
-- "TransformType"
-- "HexColorTransform"
-- !private "/"
+- "AssignmentPrecedence"
 - !private "Int"
-- !private "+="
+- !private "StringLiteralType"
+- "Bool"
 - "BooleanLiteralType"
+- !private "&"
+- !private "+="
 - !private "*"
 - !private "Scanner"
-- "UIColor"
-- !private ">>"
+- "HexColorTransform"
+- "TransformType"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGFloat"]

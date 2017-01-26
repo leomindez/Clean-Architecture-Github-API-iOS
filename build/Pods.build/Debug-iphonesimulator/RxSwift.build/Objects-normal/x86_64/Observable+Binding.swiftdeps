@@ -16,21 +16,21 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "FloatLiteralType"
-- "ConnectableObservableType"
-- "Int"
-- !private "ReplaySubject"
-- !private "ConnectableObservableAdapter"
-- "Observable"
 - "SubjectType"
 - !private "IntegerLiteralType"
-- !private "=="
 - !private "ShareReplay1"
+- !private "=="
+- !private "ReplaySubject"
+- "Int"
 - !private "ShareReplay1WhileConnected"
-- "ObservableType"
 - "ConnectableObservable"
+- "ObservableType"
 - !private "Multicast"
 - !private "RefCount"
+- "Observable"
 - !private "PublishSubject"
+- !private "ConnectableObservableAdapter"
+- "ConnectableObservableType"
 depends-member:
 - !private ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "SubjectObserverType"]

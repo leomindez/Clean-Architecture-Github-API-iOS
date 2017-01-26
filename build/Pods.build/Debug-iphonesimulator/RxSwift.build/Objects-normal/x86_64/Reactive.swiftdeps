@@ -14,10 +14,10 @@ provides-member:
 - ["P7RxSwift18ReactiveCompatible", "rx"]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "NSObject"
 - "ReactiveCompatible"
 - "Reactive"
-- "NSObject"
-- "AssignmentPrecedence"
 depends-member:
 - ["Ps9AnyObject", "CompatibleType"]
 - ["Ps9AnyObject", "rx"]

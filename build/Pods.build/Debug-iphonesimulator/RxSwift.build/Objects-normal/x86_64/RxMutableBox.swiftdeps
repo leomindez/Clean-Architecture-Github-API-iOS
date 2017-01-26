@@ -8,12 +8,12 @@ provides-member:
 - ["C7RxSwift12RxMutableBox", "debugDescription"]
 provides-dynamic-lookup:
 depends-top-level:
-- "CustomDebugStringConvertible"
 - "AssignmentPrecedence"
+- "CustomDebugStringConvertible"
+- "String"
 - !private "UnicodeScalarType"
 - !private "StringLiteralType"
 - "RxMutableBox"
-- "String"
 depends-member:
 - ["Ps9AnyObject", "debugDescription"]
 - !private ["Ps9AnyObject", "init"]

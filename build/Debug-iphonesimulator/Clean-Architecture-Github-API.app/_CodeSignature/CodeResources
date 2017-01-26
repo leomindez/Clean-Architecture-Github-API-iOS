@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mhWJ24z5ytZ9iV8ugc3ZbmJ2Jmo=
+			BCw2/WKX00Pyff3aaF+7tje/0d4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgGZ42lPx8R+EZAyjGrO2zwvHEU=
+			8ThMdhdGHpUiZ+Z3slDJm/V39pg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CVdoBOsX3nHJZzU3FEkR5UmoJ+w=
+			jgsFoHu8aOqeS1iPmDAtYVTXp3M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,14 +53,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6hQaj/5ricrRWbWhNDsUy5YhZcE=
+			ebbnCIrBZF5T0zKeVJIt3m8NyIQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		/Nut6YhKPgfoBcpkUcguHf3fhFY=
+		i2/CgW4N8ftFKwF4bn46VfkrsP0=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -76,7 +76,7 @@
 		</data>
 		<key>Frameworks/ObjectMapper.framework/ObjectMapper</key>
 		<data>
-		j76mrAJRkJlbOqnm2TNTA96PnUE=
+		TGV1NDyVD9VsXYzq/xHavg6OTs0=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -88,7 +88,7 @@
 		</data>
 		<key>Frameworks/RxSwift.framework/RxSwift</key>
 		<data>
-		955W+plkexfn9popJ4R+HIjiOAg=
+		EDetU1O23vkLsOlwKcYYr/GLuTU=
 		</data>
 		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -153,11 +153,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mhWJ24z5ytZ9iV8ugc3ZbmJ2Jmo=
+			BCw2/WKX00Pyff3aaF+7tje/0d4=
 			</data>
 			<key>hash2</key>
 			<data>
-			c2hFjRawnHPqEm793sIQ+yvue4Dsb2RxPoDBetufJ8c=
+			9qBCaDHkldxDdNdpiJhS2MjQY8zdizugbOEoCUlmXjQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -179,11 +179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgGZ42lPx8R+EZAyjGrO2zwvHEU=
+			8ThMdhdGHpUiZ+Z3slDJm/V39pg=
 			</data>
 			<key>hash2</key>
 			<data>
-			QzY2J9avT0D3RJXooqZ5Umbz6D9ssD9uT+ga7E3p6jU=
+			7vc5ARDnfGtReCh/dsBdZ3VOenu7vq+k4xMC1vbyKhU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -192,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CVdoBOsX3nHJZzU3FEkR5UmoJ+w=
+			jgsFoHu8aOqeS1iPmDAtYVTXp3M=
 			</data>
 			<key>hash2</key>
 			<data>
-			1znHGZwPdYFsNKH1HGaEwg6sIX0yr+gvKgJ7H3DtD5g=
+			yzg8d+nq1YbRAi41yRdAfzeVli8a78c2mo+R6Putc28=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6hQaj/5ricrRWbWhNDsUy5YhZcE=
+			ebbnCIrBZF5T0zKeVJIt3m8NyIQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			CNy2V9aViOf7J9EAT/9mrs57PDV+AHuSa6LE+uIXpDk=
+			bmF+h5b7ZzSNUm1dV6nrvN5ih3o952yPzfaX/GxEhy4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -231,11 +231,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/Nut6YhKPgfoBcpkUcguHf3fhFY=
+			i2/CgW4N8ftFKwF4bn46VfkrsP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			OUnTAOq89aanBlhCTDtmjcouQop3iqU/dq9njcTAvE8=
+			41bzH6NT1kDRPnIs6GTWJQ05DL7Ct3MQglijLux0g6A=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -275,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j76mrAJRkJlbOqnm2TNTA96PnUE=
+			TGV1NDyVD9VsXYzq/xHavg6OTs0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WHBRRvclBpFnng6jIPfl2eueS8vv2LXH45uZcc3oCNY=
+			JI+yxtRi/NOf9F4Xc0tmZSynbOqpnjeiWOYjUuO4t0A=
 			</data>
 		</dict>
 		<key>Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources</key>
@@ -308,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			955W+plkexfn9popJ4R+HIjiOAg=
+			EDetU1O23vkLsOlwKcYYr/GLuTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vwIyfIbATUhs2i85U6bMUFR9de3VdqBdwM9YZ/MMJLs=
+			c5kLbGiZnTYp2lP3jjzRlh1YGRBreBvrzqDJKjwVnHM=
 			</data>
 		</dict>
 		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>

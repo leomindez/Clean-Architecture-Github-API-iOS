@@ -8,9 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "CastingPrecedence"
-- "Data"
 - "TransformType"
 - "String"
+- "Data"
 - "DataTransform"
 depends-member:
 - !private ["Ps9AnyObject", "Data"]

@@ -7,9 +7,9 @@ provides-member:
 - ["C12ObjectMapper13EnumTransform", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "TransformType"
 - "RawRepresentable"
 - "CastingPrecedence"
+- "TransformType"
 - "EnumTransform"
 depends-member:
 - ["Ps9AnyObject", "JSON"]

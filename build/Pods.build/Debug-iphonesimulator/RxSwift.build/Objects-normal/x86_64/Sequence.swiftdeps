@@ -10,19 +10,19 @@ provides-member:
 - ["C7RxSwift18ObservableSequence", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Cancelable"
+- !private "FloatLiteralType"
+- "ObserverType"
 - "ImmediateSchedulerType"
-- "Sink"
-- "AssignmentPrecedence"
-- "ObservableSequenceSink"
 - !private "IntegerLiteralType"
 - "Sequence"
-- !private "FloatLiteralType"
-- "Producer"
-- "Cancelable"
 - "Disposable"
-- "ObservableSequence"
+- "AssignmentPrecedence"
 - !private "StringLiteralType"
-- "ObserverType"
+- "Sink"
+- "ObservableSequence"
+- "ObservableSequenceSink"
+- "Producer"
 depends-member:
 - !private ["Ps9AnyObject", "ObservableSequenceSink"]
 - ["Ps9AnyObject", "_elements"]

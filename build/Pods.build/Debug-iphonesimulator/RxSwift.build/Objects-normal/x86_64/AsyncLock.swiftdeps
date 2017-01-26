@@ -7,17 +7,17 @@ provides-member:
 - ["C7RxSwift9AsyncLock", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
-- "SpinLock"
 - "AssignmentPrecedence"
-- "InvocableType"
-- "Queue"
-- "Disposable"
-- "Lock"
-- "SynchronizedDisposeType"
 - !private ">"
-- "AsyncLock"
+- "SpinLock"
 - "Void"
+- "InvocableType"
+- "AsyncLock"
+- "Lock"
+- "Queue"
+- "SynchronizedDisposeType"
+- "Bool"
+- "Disposable"
 - "BooleanLiteralType"
 depends-member:
 - ["Ps9AnyObject", "Queue"]

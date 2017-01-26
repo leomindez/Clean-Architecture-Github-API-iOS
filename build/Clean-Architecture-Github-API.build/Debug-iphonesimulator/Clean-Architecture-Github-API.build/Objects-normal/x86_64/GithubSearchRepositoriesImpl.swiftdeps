@@ -10,10 +10,10 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "String"
 - "GithubSearchRepositoryImpl"
-- "Observable"
 - "GithubSearchRepository"
-- "SearchResponse"
 - "GithubService"
+- "Observable"
+- "SearchResponse"
 depends-member:
 - !private ["Ps9AnyObject", "githubService"]
 - !private ["Ps9AnyObject", "requestGithubSearchRepositories"]

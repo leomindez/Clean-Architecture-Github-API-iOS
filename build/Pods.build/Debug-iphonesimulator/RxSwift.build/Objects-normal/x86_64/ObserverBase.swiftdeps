@@ -7,18 +7,18 @@ provides-member:
 - ["C7RxSwift12ObserverBase", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "ObserverType"
 - "FloatLiteralType"
 - "IntegerLiteralType"
 - !private "=="
-- "AssignmentPrecedence"
-- "ObserverType"
-- "ObserverBase"
 - !private "AtomicCompareAndSwap"
-- "AtomicInt"
-- "Disposable"
-- !private "!"
-- !private "abstractMethod"
+- "AssignmentPrecedence"
 - "Event"
+- !private "abstractMethod"
+- "Disposable"
+- "ObserverBase"
+- !private "!"
+- "AtomicInt"
 depends-member:
 - !private ["Ps9AnyObject", "AtomicCompareAndSwap"]
 - ["Ps9AnyObject", "E"]

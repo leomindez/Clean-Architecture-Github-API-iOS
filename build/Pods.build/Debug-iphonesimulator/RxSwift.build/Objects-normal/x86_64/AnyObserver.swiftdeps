@@ -12,9 +12,9 @@ provides-dynamic-lookup:
 depends-top-level:
 - "ObserverType"
 - "AssignmentPrecedence"
+- "Void"
 - "Event"
 - "AnyObserver"
-- "Void"
 depends-member:
 - ["V7RxSwift11AnyObserver", "AnyObserver"]
 - ["V7RxSwift11AnyObserver", "E"]

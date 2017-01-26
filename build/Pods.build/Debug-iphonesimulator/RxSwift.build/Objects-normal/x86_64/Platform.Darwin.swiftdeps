@@ -13,19 +13,19 @@ provides-member:
 - ["Vs5Int32", "valueSnapshot"]
 provides-dynamic-lookup:
 depends-top-level:
+- "OSAtomicCompareAndSwap32Barrier"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
 - "Thread"
-- "OSAtomicDecrement32Barrier"
-- "String"
-- "AtomicCompareAndSwap"
-- "OSAtomicIncrement32Barrier"
 - "AtomicIncrement"
-- "AtomicInt"
 - "AnyObject"
-- "OSAtomicCompareAndSwap32Barrier"
-- "Int32"
+- "String"
+- "OSAtomicDecrement32Barrier"
+- "AtomicInt"
+- "OSAtomicIncrement32Barrier"
 - "AtomicDecrement"
+- "AtomicCompareAndSwap"
+- "Int32"
 depends-member:
 - !private ["Ps9AnyObject", "Thread"]
 - !private ["Ps9AnyObject", "current"]

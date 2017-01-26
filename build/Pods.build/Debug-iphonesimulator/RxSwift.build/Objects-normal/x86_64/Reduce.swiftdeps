@@ -10,19 +10,19 @@ provides-member:
 - ["C7RxSwift6Reduce", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ReduceSink"
-- "ObserverType"
-- "Observable"
-- "Cancelable"
 - "Reduce"
-- "Disposable"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
-- "Event"
 - "Sink"
-- "AssignmentPrecedence"
+- "Event"
+- "Disposable"
 - "Producer"
 - !private "StringLiteralType"
+- "ReduceSink"
+- "AssignmentPrecedence"
+- "Observable"
+- "Cancelable"
+- !private "IntegerLiteralType"
+- "ObserverType"
+- !private "FloatLiteralType"
 depends-member:
 - ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "ReduceSink"]

@@ -7,15 +7,15 @@ provides-member:
 - ["C29Clean_Architecture_Github_API4Item", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Double"
-- !private "<-"
-- "Item"
-- "Owner"
-- !private "StringLiteralType"
-- "String"
-- "Int"
 - "Map"
+- "String"
+- "Item"
+- "Double"
 - "Mappable"
+- "Int"
+- !private "StringLiteralType"
+- !private "<-"
+- "Owner"
 depends-member:
 - !private ["Ps9AnyObject", "description"]
 - !private ["Ps9AnyObject", "fork"]

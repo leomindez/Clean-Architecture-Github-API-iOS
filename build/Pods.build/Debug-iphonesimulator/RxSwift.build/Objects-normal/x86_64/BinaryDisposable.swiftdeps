@@ -6,19 +6,19 @@ provides-member:
 - ["V7RxSwift11Disposables", "create"]
 provides-dynamic-lookup:
 depends-top-level:
-- "FloatLiteralType"
-- "IntegerLiteralType"
-- "AssignmentPrecedence"
-- "Disposable"
-- "Bool"
-- !private "AtomicInt"
-- "Cancelable"
-- !private ">"
-- !private "StringLiteralType"
 - "Disposables"
+- !private "AtomicInt"
+- "FloatLiteralType"
 - !private "BinaryDisposable"
-- !private "DisposeBase"
+- "IntegerLiteralType"
+- !private ">"
+- "Disposable"
+- "AssignmentPrecedence"
 - !private "AtomicCompareAndSwap"
+- !private "DisposeBase"
+- !private "StringLiteralType"
+- "Cancelable"
+- "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "AtomicCompareAndSwap"]
 - !private ["Ps9AnyObject", "_disposable1"]

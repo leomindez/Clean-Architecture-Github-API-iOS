@@ -6,11 +6,11 @@ provides-member:
 - ["SS", "lastIndexOf"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Character"
+- "String"
 - "AssignmentPrecedence"
 - !private "=="
 - !private ">"
-- "String"
-- "Character"
 depends-member:
 - !private ["Ps9AnyObject", "endIndex"]
 - !private ["Ps9AnyObject", "index"]

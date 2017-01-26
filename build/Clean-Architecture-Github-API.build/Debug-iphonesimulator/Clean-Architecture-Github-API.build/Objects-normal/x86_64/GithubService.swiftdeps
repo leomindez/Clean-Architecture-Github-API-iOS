@@ -7,19 +7,19 @@ provides-member:
 - ["C29Clean_Architecture_Github_API13GithubService", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "GithubClientConstants"
-- "String"
-- !private "Parameters"
 - !private "StringLiteralType"
-- !private "Disposable"
-- !private "Disposables"
-- !private "Dictionary"
+- "String"
 - !private "+"
-- !private "Alamofire"
-- "Observable"
+- !private "GithubClientConstants"
+- !private "Disposables"
+- !private "UnicodeScalarType"
 - "GithubService"
 - "SearchResponse"
-- !private "UnicodeScalarType"
+- !private "Disposable"
+- !private "Alamofire"
+- !private "Parameters"
+- !private "Dictionary"
+- "Observable"
 depends-member:
 - !private ["Ps9AnyObject", "Alamofire"]
 - !private ["Ps9AnyObject", "BASE_URL"]

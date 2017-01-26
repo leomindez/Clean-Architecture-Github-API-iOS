@@ -7,15 +7,15 @@ provides-member:
 - ["C7RxSwift16SerialDisposable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SerialDisposable"
-- !private "AssignmentPrecedence"
 - "Bool"
-- "CastingPrecedence"
-- "SpinLock"
 - "Disposable"
+- "SerialDisposable"
+- "SpinLock"
+- "BooleanLiteralType"
 - "Cancelable"
 - "DisposeBase"
-- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "AssignmentPrecedence"
 depends-member:
 - ["Ps9AnyObject", "SpinLock"]
 - ["Ps9AnyObject", "_current"]

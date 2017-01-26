@@ -7,11 +7,11 @@ provides-member:
 - ["V7RxSwift3Bag", "on"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ObserverType"
-- "disposeAll"
 - "Bag"
-- "Event"
+- "ObserverType"
 - "Disposable"
+- "Event"
+- "disposeAll"
 depends-member:
 - ["V7RxSwift3Bag", "Event"]
 - ["V7RxSwift3Bag", "ObserverType"]

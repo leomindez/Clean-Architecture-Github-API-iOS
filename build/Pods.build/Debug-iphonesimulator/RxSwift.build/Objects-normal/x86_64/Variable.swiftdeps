@@ -7,11 +7,11 @@ provides-member:
 - ["C7RxSwift8Variable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- "Variable"
-- "BehaviorSubject"
-- "SpinLock"
 - "Observable"
+- "Variable"
+- "AssignmentPrecedence"
+- "SpinLock"
+- "BehaviorSubject"
 depends-member:
 - !private ["Ps9AnyObject", "BehaviorSubject"]
 - ["Ps9AnyObject", "SpinLock"]

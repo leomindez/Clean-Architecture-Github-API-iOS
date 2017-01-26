@@ -7,20 +7,20 @@ provides-member:
 - ["C7RxSwift28SerialDispatchQueueScheduler", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SchedulerType"
 - "DispatchQoS"
-- "DispatchQueueConfiguration"
-- "Void"
 - "Foundation"
-- "AssignmentPrecedence"
-- !private "Array"
-- "String"
+- "DispatchQueueConfiguration"
 - "Disposable"
+- "AssignmentPrecedence"
+- "Void"
+- "SchedulerType"
 - "StringLiteralType"
-- "SerialDispatchQueueScheduler"
+- "String"
 - "Date"
-- "DispatchQueue"
 - "DispatchTimeInterval"
+- "SerialDispatchQueueScheduler"
+- "DispatchQueue"
+- !private "Array"
 depends-member:
 - !private ["Ps9AnyObject", "Date"]
 - !private ["Ps9AnyObject", "DispatchQueue"]

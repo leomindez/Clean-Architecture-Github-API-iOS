@@ -14,14 +14,14 @@ provides-member:
 - ["O7RxSwift21VirtualTimeComparison", "equal"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "FloatLiteralType"
-- "RxTime"
-- !private "IntegerLiteralType"
 - "VirtualTimeConverterType"
-- "=="
+- !private "FloatLiteralType"
 - "VirtualTimeComparison"
-- "RxTimeInterval"
+- !private "IntegerLiteralType"
+- "=="
+- "RxTime"
 - "Bool"
+- "RxTimeInterval"
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - ["Sb", "deinit"]

@@ -7,9 +7,9 @@ provides-member:
 - ["P7RxSwift10Cancelable", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Bool"
 - "Cancelable"
 - "Disposable"
-- "Bool"
 depends-member:
 - ["P7RxSwift10Cancelable", "Bool"]
 - ["P7RxSwift10Cancelable", "isDisposed"]

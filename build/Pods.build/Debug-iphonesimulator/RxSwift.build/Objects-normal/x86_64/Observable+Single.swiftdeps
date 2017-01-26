@@ -16,22 +16,22 @@ provides-member:
 - ["P7RxSwift14ObservableType", "scan"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "InfiniteSequence"
-- !private "=="
-- !private "RetryWhenSequence"
 - "Void"
+- !private "=="
+- !private "Scan"
+- "Observable"
+- !private "InfiniteSequence"
+- !private "repeatElement"
+- "Swift"
+- "Int"
+- "ObservableType"
+- "Bool"
+- !private "StartWith"
 - !private "DistinctUntilChanged"
 - !private "Do"
 - !private "CatchSequence"
-- "Bool"
-- "Swift"
-- !private "StartWith"
+- !private "RetryWhenSequence"
 - "Equatable"
-- !private "repeatElement"
-- "ObservableType"
-- !private "Scan"
-- "Observable"
-- "Int"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "E"]

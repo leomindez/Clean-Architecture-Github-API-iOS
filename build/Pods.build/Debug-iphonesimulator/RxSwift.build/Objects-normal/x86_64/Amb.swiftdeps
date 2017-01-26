@@ -17,24 +17,24 @@ provides-member:
 - ["C7RxSwift3Amb", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Disposable"
 - "NSRecursiveLock"
-- !private "Disposables"
-- !private "SingleAssignmentDisposable"
-- "Observable"
-- !private "StringLiteralType"
-- "ObserverType"
-- "Amb"
-- "Event"
-- "Sink"
-- "Void"
-- "Producer"
 - "AmbSink"
-- "=="
 - "AmbObserver"
-- "AssignmentPrecedence"
-- "Cancelable"
+- "Event"
+- "Observable"
+- "Sink"
+- "Amb"
 - "AmbState"
+- !private "Disposables"
+- "Disposable"
+- "Producer"
+- "=="
+- "AssignmentPrecedence"
+- !private "SingleAssignmentDisposable"
+- "ObserverType"
+- "Void"
+- "Cancelable"
+- !private "StringLiteralType"
 depends-member:
 - !private ["C7RxSwift3Amb", "AmbSink"]
 - ["C7RxSwift3Amb", "Cancelable"]

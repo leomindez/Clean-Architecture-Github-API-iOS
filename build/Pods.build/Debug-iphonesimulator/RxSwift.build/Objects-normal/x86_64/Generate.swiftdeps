@@ -10,22 +10,22 @@ provides-member:
 - ["C7RxSwift8Generate", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ObserverType"
-- "Bool"
-- "Generate"
+- "Disposable"
 - "Cancelable"
-- !private "FloatLiteralType"
-- "GenerateSink"
-- !private "IntegerLiteralType"
-- "AssignmentPrecedence"
 - !private "!"
-- !private "StringLiteralType"
-- "ImmediateSchedulerType"
+- "ObserverType"
+- "GenerateSink"
+- "Generate"
+- !private "FloatLiteralType"
+- !private "BooleanLiteralType"
 - "Sink"
 - !private "Void"
+- !private "IntegerLiteralType"
+- "Bool"
 - "Producer"
-- "Disposable"
-- !private "BooleanLiteralType"
+- "ImmediateSchedulerType"
+- "AssignmentPrecedence"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "GenerateSink"]
 - ["Ps9AnyObject", "_condition"]

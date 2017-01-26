@@ -4,12 +4,12 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- !private "ImmediateSchedulerType"
-- !private "SingleAssignmentDisposable"
 - "Disposable"
-- !private "AsyncLock"
 - !private "ImmediateScheduler"
+- !private "AsyncLock"
+- !private "SingleAssignmentDisposable"
 - !private "AnonymousInvocable"
+- !private "ImmediateSchedulerType"
 depends-member:
 - ["V7RxSwift18AnonymousInvocable", "deinit"]
 - !private ["V7RxSwift18AnonymousInvocable", "init"]

@@ -11,20 +11,20 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "FloatLiteralType"
-- "Event"
-- "Sink"
 - !private "IntegerLiteralType"
 - "RxTimeInterval"
 - "AssignmentPrecedence"
-- "Observable"
 - "ObserverType"
+- "Cancelable"
 - "Producer"
-- "DelaySubscription"
+- "Disposable"
+- "Observable"
 - !private "StringLiteralType"
 - "DelaySubscriptionSink"
+- "DelaySubscription"
+- "Event"
 - "SchedulerType"
-- "Cancelable"
-- "Disposable"
+- "Sink"
 depends-member:
 - !private ["Ps9AnyObject", "DelaySubscriptionSink"]
 - ["Ps9AnyObject", "E"]

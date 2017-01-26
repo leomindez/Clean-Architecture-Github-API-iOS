@@ -8,9 +8,9 @@ provides-member:
 - ["P7RxSwift23SynchronizedDisposeType", "synchronizedDispose"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Disposable"
 - "Lock"
 - "SynchronizedDisposeType"
+- "Disposable"
 depends-member:
 - ["P7RxSwift10Disposable", "_synchronized_dispose"]
 - !private ["P7RxSwift10Disposable", "lock"]

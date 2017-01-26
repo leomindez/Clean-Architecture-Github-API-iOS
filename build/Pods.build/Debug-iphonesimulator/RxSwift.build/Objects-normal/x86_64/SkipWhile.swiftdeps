@@ -13,25 +13,25 @@ provides-member:
 - ["C7RxSwift9SkipWhile", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Cancelable"
 - "FloatLiteralType"
-- "SkipWhile"
-- !private "!"
-- "Producer"
+- "Cancelable"
 - "IntegerLiteralType"
+- "Observable"
 - "ObserverType"
 - "AssignmentPrecedence"
-- "Bool"
-- !private "incrementChecked"
 - "SkipWhileSinkWithIndex"
+- "SkipWhile"
 - "Event"
-- "Int"
-- "Sink"
 - !private "StringLiteralType"
-- "Disposable"
+- "Bool"
+- "Sink"
+- !private "!"
+- !private "incrementChecked"
 - "SkipWhileSink"
-- "Observable"
+- "Producer"
 - "BooleanLiteralType"
+- "Disposable"
+- "Int"
 depends-member:
 - ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "SkipWhileSink"]

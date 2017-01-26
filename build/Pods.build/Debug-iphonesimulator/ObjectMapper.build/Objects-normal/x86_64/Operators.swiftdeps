@@ -41,19 +41,19 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Map"
-- !private "ToJSON"
 - "<-"
-- "DefaultPrecedence"
-- !private "=="
-- "Dictionary"
 - "Hashable"
-- !private "FromJSON"
 - "String"
-- "Array"
 - "Set"
-- "BaseMappable"
+- !private "ToJSON"
+- "Map"
+- "DefaultPrecedence"
+- "Array"
+- !private "=="
 - ">>>"
+- !private "FromJSON"
+- "Dictionary"
+- "BaseMappable"
 depends-member:
 - !private ["Ps9AnyObject", "basicType"]
 - !private ["Ps9AnyObject", "isKeyPresent"]

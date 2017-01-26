@@ -10,25 +10,25 @@ provides-member:
 - ["C7RxSwift9RangeSink", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "&+"
-- "AssignmentPrecedence"
-- "CastingPrecedence"
+- "Producer"
+- "Sink"
+- !private "-"
+- "RangeSink"
 - !private "rxFatalError"
 - "ImmediateSchedulerType"
-- "RangeSink"
-- !private "FloatLiteralType"
-- !private "-"
-- !private "IntegerLiteralType"
-- "Sink"
-- "RangeProducer"
-- "Producer"
 - "Disposable"
 - !private "+"
-- "ObserverType"
-- "Cancelable"
 - !private "StringLiteralType"
-- "SignedInteger"
+- "Cancelable"
+- "RangeProducer"
 - !private "<"
+- "CastingPrecedence"
+- "ObserverType"
+- "AssignmentPrecedence"
+- "SignedInteger"
+- !private "IntegerLiteralType"
+- !private "&+"
+- !private "FloatLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "RangeSink"]
 - ["Ps9AnyObject", "_count"]

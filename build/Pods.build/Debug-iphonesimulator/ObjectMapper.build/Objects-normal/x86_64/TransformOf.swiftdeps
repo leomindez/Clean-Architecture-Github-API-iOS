@@ -7,10 +7,10 @@ provides-member:
 - ["C12ObjectMapper11TransformOf", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "TransformOf"
-- "CastingPrecedence"
-- "AssignmentPrecedence"
 - "TransformType"
+- "TransformOf"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
 depends-member:
 - ["Ps9AnyObject", "JSON"]
 - ["Ps9AnyObject", "Object"]

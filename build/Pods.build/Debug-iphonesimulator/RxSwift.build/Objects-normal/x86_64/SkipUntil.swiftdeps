@@ -13,24 +13,24 @@ provides-member:
 - ["C7RxSwift9SkipUntil", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Producer"
-- "SingleAssignmentDisposable"
 - "SynchronizedOnType"
-- "Event"
+- "SingleAssignmentDisposable"
 - "LockOwnerType"
-- "Sink"
-- "NSRecursiveLock"
-- "AssignmentPrecedence"
-- "Disposable"
-- "SkipUntilSink"
-- "SkipUntilSinkOther"
 - !private "StringLiteralType"
-- "ObserverType"
-- "Cancelable"
-- !private "Disposables"
-- "SkipUntil"
-- "Observable"
 - "BooleanLiteralType"
+- "NSRecursiveLock"
+- "Event"
+- "Sink"
+- "Observable"
+- !private "Disposables"
+- "Disposable"
+- "Producer"
+- "SkipUntil"
+- "SkipUntilSink"
+- "ObserverType"
+- "SkipUntilSinkOther"
+- "Cancelable"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - ["Ps9AnyObject", "E"]

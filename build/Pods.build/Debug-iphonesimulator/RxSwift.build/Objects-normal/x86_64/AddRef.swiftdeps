@@ -10,22 +10,22 @@ provides-member:
 - ["C7RxSwift6AddRef", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Void"
-- "Event"
-- "Sink"
-- !private "StringLiteralType"
-- "Producer"
-- !private "Disposables"
-- "Observable"
-- "AddRefSink"
-- !private "IntegerLiteralType"
-- "ObserverType"
-- "Disposable"
-- !private "FloatLiteralType"
-- "Cancelable"
-- "AddRef"
-- "RefCountDisposable"
 - "AssignmentPrecedence"
+- "Producer"
+- "Sink"
+- "Disposable"
+- "Void"
+- "RefCountDisposable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "AddRef"
+- "Cancelable"
+- "AddRefSink"
+- "ObserverType"
+- !private "Disposables"
+- !private "StringLiteralType"
+- "Observable"
+- "Event"
 depends-member:
 - !private ["C7RxSwift6AddRef", "AddRefSink"]
 - ["C7RxSwift6AddRef", "Cancelable"]

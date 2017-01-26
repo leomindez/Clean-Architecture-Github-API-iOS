@@ -10,20 +10,20 @@ provides-member:
 - ["C7RxSwift6Filter", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Producer"
-- "Bool"
+- "FilterSink"
+- "Cancelable"
+- "Disposable"
+- "ObserverType"
+- "Filter"
+- "Observable"
 - !private "FloatLiteralType"
 - "Event"
 - "Sink"
 - !private "IntegerLiteralType"
-- "Disposable"
+- "Producer"
+- "Bool"
 - "AssignmentPrecedence"
-- "ObserverType"
 - !private "StringLiteralType"
-- "FilterSink"
-- "Cancelable"
-- "Observable"
-- "Filter"
 depends-member:
 - ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "FilterSink"]

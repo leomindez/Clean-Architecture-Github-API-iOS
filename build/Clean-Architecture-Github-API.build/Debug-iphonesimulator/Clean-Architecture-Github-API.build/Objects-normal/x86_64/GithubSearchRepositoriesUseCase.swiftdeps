@@ -9,10 +9,10 @@ provides-dynamic-lookup:
 depends-top-level:
 - "String"
 - "AssignmentPrecedence"
-- "GithubSearchRepository"
-- "SearchResponse"
-- "Observable"
 - "GithubSearchRepositoriesUseCase"
+- "SearchResponse"
+- "GithubSearchRepository"
+- "Observable"
 depends-member:
 - !private ["Ps9AnyObject", "githubSearchRepository"]
 - ["Ps9AnyObject", ""]

@@ -8,8 +8,8 @@ provides-dynamic-lookup:
 depends-top-level:
 - "DispatchSpecificKey"
 - !private "!="
-- "DispatchQueue"
 - "Bool"
+- "DispatchQueue"
 depends-member:
 - ["Ps9AnyObject", "DispatchQueue"]
 - ["Ps9AnyObject", "DispatchSpecificKey"]

@@ -10,15 +10,15 @@ provides-member:
 - ["C7RxSwift11SinkForward", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Event"
-- "Sink"
 - "SinkForward"
+- "ObserverType"
+- "Cancelable"
+- !private "BooleanLiteralType"
+- "Bool"
+- "Sink"
+- "Event"
 - "Disposable"
 - "AssignmentPrecedence"
-- "Bool"
-- "Cancelable"
-- "ObserverType"
-- !private "BooleanLiteralType"
 depends-member:
 - ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "SinkForward"]

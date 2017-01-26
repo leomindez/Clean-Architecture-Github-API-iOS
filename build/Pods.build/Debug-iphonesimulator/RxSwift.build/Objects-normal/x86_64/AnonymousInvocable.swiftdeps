@@ -7,9 +7,9 @@ provides-member:
 - ["V7RxSwift18AnonymousInvocable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "InvocableType"
 - "AnonymousInvocable"
 - "AssignmentPrecedence"
+- "InvocableType"
 depends-member:
 - !private ["V7RxSwift18AnonymousInvocable", "_action"]
 - ["V7RxSwift18AnonymousInvocable", "deinit"]

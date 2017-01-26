@@ -13,20 +13,20 @@ provides-member:
 - ["C7RxSwift18ObservableOptional", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "ObserverType"
+- "Disposable"
 - "Cancelable"
-- "AssignmentPrecedence"
-- "ObservableOptionalScheduled"
-- "ObservableOptional"
-- !private "IntegerLiteralType"
 - !private "FloatLiteralType"
-- "ObservableOptionalScheduledSink"
-- "Sink"
+- "ObserverType"
 - !private "Disposables"
 - "ImmediateSchedulerType"
+- !private "IntegerLiteralType"
+- "AssignmentPrecedence"
+- "ObservableOptionalScheduledSink"
+- "ObservableOptional"
+- !private "StringLiteralType"
+- "Sink"
 - "Producer"
-- "Disposable"
+- "ObservableOptionalScheduled"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - !private ["Ps9AnyObject", "ObservableOptionalScheduledSink"]

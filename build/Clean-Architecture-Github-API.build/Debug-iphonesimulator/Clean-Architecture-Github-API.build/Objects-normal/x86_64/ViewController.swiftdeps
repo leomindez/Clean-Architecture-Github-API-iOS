@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C29Clean_Architecture_Github_API14ViewController", ""]
 provides-dynamic-lookup:
+- "onShowGithubRepositoresError"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
-- "onShowGithubRepositoresError"
 depends-top-level:
-- !private "GithubSearchRepositoriesUseCase"
+- "Item"
+- "Array"
 - !private "StringLiteralType"
 - !private "GithubService"
-- "Array"
-- "Item"
-- !private "GithubSearchRepositoryImpl"
-- "UIViewController"
-- "String"
+- !private "GithubSearchRepositoriesUseCase"
 - !private "NSLog"
 - "ViewController"
+- "UIViewController"
+- "String"
+- !private "GithubSearchRepositoryImpl"
 - "GithubSearchRepositoriesView"
 - !private "GithubSearchRepositoriesPresenter"
 depends-member:

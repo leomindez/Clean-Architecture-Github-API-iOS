@@ -7,10 +7,10 @@ provides-member:
 - ["P29Clean_Architecture_Github_API22GithubSearchRepository", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "GithubSearchRepository"
-- "SearchResponse"
-- "Observable"
 - "String"
+- "SearchResponse"
+- "GithubSearchRepository"
+- "Observable"
 depends-member:
 - ["P29Clean_Architecture_Github_API22GithubSearchRepository", "Observable"]
 - ["P29Clean_Architecture_Github_API22GithubSearchRepository", "SearchResponse"]

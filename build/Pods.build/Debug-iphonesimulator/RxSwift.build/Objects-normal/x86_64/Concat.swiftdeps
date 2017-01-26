@@ -10,23 +10,23 @@ provides-member:
 - ["C7RxSwift6Concat", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "TailRecursiveSink"
+- "Producer"
 - !private "FloatLiteralType"
-- "Event"
-- "IntMax"
-- "Observable"
+- "Concat"
+- "ObservableConvertibleType"
 - !private "IntegerLiteralType"
 - "Sequence"
-- "ObservableConvertibleType"
 - "AssignmentPrecedence"
-- "CastingPrecedence"
-- !private "StringLiteralType"
 - "ObserverType"
-- "Cancelable"
-- "Concat"
-- "ConcatSink"
-- "Producer"
+- "CastingPrecedence"
 - "Disposable"
+- "Cancelable"
+- "ConcatSink"
+- !private "StringLiteralType"
+- "TailRecursiveSink"
+- "Observable"
+- "IntMax"
+- "Event"
 depends-member:
 - !private ["Ps9AnyObject", "ConcatSink"]
 - ["Ps9AnyObject", "E"]

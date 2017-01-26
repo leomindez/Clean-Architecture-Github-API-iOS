@@ -8,8 +8,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
-- "Cancelable"
 - "Disposable"
+- "Cancelable"
 - "Bool"
 - "BooleanDisposable"
 - "BooleanLiteralType"

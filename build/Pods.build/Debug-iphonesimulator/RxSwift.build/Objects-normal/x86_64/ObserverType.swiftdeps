@@ -11,8 +11,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ObserverType"
-- "Event"
 - "Swift"
+- "Event"
 depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "completed"]
 - !private ["Ps28CustomDebugStringConvertible", "error"]

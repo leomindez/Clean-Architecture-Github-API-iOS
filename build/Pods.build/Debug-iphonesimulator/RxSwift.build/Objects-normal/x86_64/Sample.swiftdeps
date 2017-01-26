@@ -13,25 +13,25 @@ provides-member:
 - ["C7RxSwift6Sample", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Producer"
-- "Sink"
-- "SingleAssignmentDisposable"
-- "CastingPrecedence"
-- "Sample"
-- "Disposable"
-- "AssignmentPrecedence"
+- "SamplerSink"
+- "SampleSequenceSink"
+- "Event"
 - "SynchronizedOnType"
 - "NSRecursiveLock"
+- "SingleAssignmentDisposable"
+- "AssignmentPrecedence"
+- "Sink"
+- "CastingPrecedence"
 - "LockOwnerType"
-- "Cancelable"
-- !private "StringLiteralType"
+- "Producer"
+- "Disposable"
 - !private "Disposables"
-- "ObserverType"
-- "SampleSequenceSink"
+- !private "StringLiteralType"
 - "Observable"
-- "SamplerSink"
+- "Cancelable"
+- "Sample"
 - "BooleanLiteralType"
-- "Event"
+- "ObserverType"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - ["Ps9AnyObject", "E"]

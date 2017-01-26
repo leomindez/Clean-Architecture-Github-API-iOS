@@ -8,12 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "SingleAssignmentDisposable"
-- "AssignmentPrecedence"
 - "Bool"
+- "InvocableType"
 - "Disposable"
+- "AssignmentPrecedence"
 - "ScheduledItem"
 - "ScheduledItemType"
-- "InvocableType"
 depends-member:
 - !private ["Ps9AnyObject", "dispose"]
 - ["Ps9AnyObject", "init"]

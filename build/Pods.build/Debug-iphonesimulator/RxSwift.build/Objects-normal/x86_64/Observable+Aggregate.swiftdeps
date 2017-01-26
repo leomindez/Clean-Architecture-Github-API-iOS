@@ -8,9 +8,9 @@ provides-member:
 - ["P7RxSwift14ObservableType", "toArray"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "ToArray"
-- "ObservableType"
 - !private "Reduce"
+- "ObservableType"
+- !private "ToArray"
 - "Observable"
 depends-member:
 - !private ["Ps9AnyObject", "init"]

@@ -11,16 +11,16 @@ provides-member:
 - ["P7RxSwift13SchedulerType", "scheduleRecursive"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AnyRecursiveScheduler"
 - "Disposable"
-- "RxTimeInterval"
-- "ImmediateSchedulerType"
-- "RxTime"
-- !private "SchedulePeriodicRecursive"
-- "Date"
-- "TimeInterval"
-- !private "Disposables"
 - "SchedulerType"
+- !private "Disposables"
+- !private "SchedulePeriodicRecursive"
+- "AnyRecursiveScheduler"
+- "ImmediateSchedulerType"
+- "Date"
+- "RxTimeInterval"
+- "TimeInterval"
+- "RxTime"
 depends-member:
 - !private ["Ps9AnyObject", "dispose"]
 - !private ["Ps9AnyObject", "init"]

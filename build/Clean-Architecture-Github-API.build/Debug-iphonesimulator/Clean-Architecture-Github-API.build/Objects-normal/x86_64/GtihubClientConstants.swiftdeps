@@ -7,8 +7,8 @@ provides-member:
 - ["C29Clean_Architecture_Github_API21GithubClientConstants", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "StringLiteralType"
 - "GithubClientConstants"
+- "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]

@@ -19,11 +19,11 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Map"
-- "RawRepresentable"
 - !private "EnumTransform"
-- "String"
 - "<-"
+- "RawRepresentable"
+- "Map"
+- "String"
 - ">>>"
 depends-member:
 - !private ["Ps9AnyObject", "Object"]

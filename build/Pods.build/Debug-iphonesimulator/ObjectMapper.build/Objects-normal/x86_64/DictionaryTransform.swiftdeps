@@ -7,15 +7,15 @@ provides-member:
 - ["V12ObjectMapper19DictionaryTransform", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "TransformType"
-- "RawRepresentable"
 - "CastingPrecedence"
 - "DictionaryTransform"
 - "Mappable"
 - !private "AssignmentPrecedence"
+- "RawRepresentable"
 - "String"
-- !private "Dictionary"
+- "TransformType"
 - "Hashable"
+- !private "Dictionary"
 depends-member:
 - !private ["P12ObjectMapper12BaseMappable", "init"]
 - !private ["P12ObjectMapper12BaseMappable", "toJSON"]

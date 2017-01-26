@@ -7,13 +7,13 @@ provides-member:
 - ["C29Clean_Architecture_Github_API5Owner", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Map"
-- !private "StringLiteralType"
-- "Int"
-- "Owner"
 - "String"
+- "Map"
 - "Mappable"
+- "Int"
+- !private "StringLiteralType"
 - !private "<-"
+- "Owner"
 depends-member:
 - !private ["Ps9AnyObject", "avatarUrl"]
 - !private ["Ps9AnyObject", "gravatarId"]

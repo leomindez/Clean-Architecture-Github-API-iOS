@@ -10,28 +10,28 @@ provides-member:
 - ["V7RxSwift26DispatchQueueConfiguration", "schedulePeriodic"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "CompositeDisposable"
 - !private "FloatLiteralType"
-- !private "*"
 - "Foundation"
+- !private "*"
+- !private "CompositeDisposable"
 - !private "IntegerLiteralType"
-- "AssignmentPrecedence"
+- !private "DispatchTime"
 - !private "Disposables"
-- "DispatchQueueConfiguration"
+- "DispatchQueue"
+- "AssignmentPrecedence"
+- "DispatchTimeInterval"
 - !private "dispatchInterval"
 - !private "+"
 - "TimeInterval"
-- !private "StringLiteralType"
 - !private "SingleAssignmentDisposable"
-- "Disposable"
+- "DispatchQueueConfiguration"
 - !private ">="
-- "DispatchQueue"
+- !private "StringLiteralType"
+- "Disposable"
 - !private "Int"
-- "DispatchTimeInterval"
-- !private "precondition"
 - !private "DispatchSource"
 - !private "DispatchSourceTimer"
-- !private "DispatchTime"
+- !private "precondition"
 depends-member:
 - !private ["Ps9AnyObject", "async"]
 - !private ["Ps9AnyObject", "init"]

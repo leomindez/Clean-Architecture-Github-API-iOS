@@ -10,21 +10,21 @@ provides-member:
 - ["C7RxSwift2Do", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ObserverType"
-- "AssignmentPrecedence"
-- "Cancelable"
-- !private "IntegerLiteralType"
-- !private "Disposables"
-- !private "FloatLiteralType"
-- "Observable"
-- "Event"
-- "Disposable"
-- "Sink"
 - "Producer"
-- "DoSink"
 - !private "StringLiteralType"
+- "DoSink"
 - "Void"
+- "ObserverType"
+- "Disposable"
+- "Cancelable"
 - "Do"
+- !private "FloatLiteralType"
+- !private "Disposables"
+- "Observable"
+- !private "IntegerLiteralType"
+- "AssignmentPrecedence"
+- "Sink"
+- "Event"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - !private ["Ps9AnyObject", "DoSink"]

@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C29Clean_Architecture_Github_API11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidEnterBackground"
-- "applicationWillResignActive"
 - "applicationDidBecomeActive"
 - "applicationWillEnterForeground"
-- "applicationWillTerminate"
-- "window"
 - "application"
+- "applicationDidEnterBackground"
+- "applicationWillResignActive"
+- "window"
+- "applicationWillTerminate"
 depends-top-level:
-- "UIApplication"
-- "AppDelegate"
 - "UIApplicationLaunchOptionsKey"
 - "UIResponder"
-- "UIApplicationDelegate"
+- "AppDelegate"
+- "UIApplication"
 - "UIWindow"
-- !private "BooleanLiteralType"
 - "Bool"
+- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

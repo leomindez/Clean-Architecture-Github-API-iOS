@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "FloatLiteralType"
-- "ObserverBase"
-- "Event"
 - !private "IntegerLiteralType"
 - "AssignmentPrecedence"
+- "ObserverBase"
+- "Event"
 - !private "StringLiteralType"
-- "AnonymousObserver"
 - "Void"
+- "AnonymousObserver"
 depends-member:
 - ["C7RxSwift17AnonymousObserver", "Element"]
 - ["C7RxSwift17AnonymousObserver", "ElementType"]

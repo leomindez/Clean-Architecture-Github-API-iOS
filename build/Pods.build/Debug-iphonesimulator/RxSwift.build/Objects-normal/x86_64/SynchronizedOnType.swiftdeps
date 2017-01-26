@@ -8,10 +8,10 @@ provides-member:
 - ["P7RxSwift18SynchronizedOnType", "synchronizedOn"]
 provides-dynamic-lookup:
 depends-top-level:
-- "SynchronizedOnType"
 - "ObserverType"
-- "Lock"
 - "Event"
+- "Lock"
+- "SynchronizedOnType"
 depends-member:
 - ["O7RxSwift5Event", "deinit"]
 - ["P7RxSwift4Lock", "E"]

@@ -12,20 +12,20 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "FloatLiteralType"
-- "SchedulePeriodicRecursive"
-- "Disposable"
-- !private "AtomicDecrement"
+- "RxTimeInterval"
 - "IntegerLiteralType"
+- "AtomicInt"
 - "=="
+- "SchedulePeriodicRecursiveCommand"
 - "AssignmentPrecedence"
 - !private ">"
-- "Void"
-- "SchedulerType"
-- "SchedulePeriodicRecursiveCommand"
-- "AtomicInt"
-- !private "AtomicIncrement"
-- "RxTimeInterval"
+- !private "AtomicDecrement"
 - "AnyRecursiveScheduler"
+- "Disposable"
+- !private "AtomicIncrement"
+- "SchedulePeriodicRecursive"
+- "SchedulerType"
+- "Void"
 depends-member:
 - !private ["Ps9AnyObject", "AtomicDecrement"]
 - !private ["Ps9AnyObject", "AtomicIncrement"]

@@ -7,13 +7,13 @@ provides-member:
 - ["V7RxSwift32HistoricalSchedulerTimeConverter", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "VirtualTimeConverterType"
 - !private "Date"
-- "CastingPrecedence"
-- "RxTimeInterval"
 - "VirtualTimeComparison"
-- "HistoricalSchedulerTimeConverter"
+- "RxTimeInterval"
 - "RxTime"
+- "HistoricalSchedulerTimeConverter"
+- "CastingPrecedence"
+- "VirtualTimeConverterType"
 depends-member:
 - !private ["Ps10Comparable", "addingTimeInterval"]
 - !private ["Ps10Comparable", "compare"]

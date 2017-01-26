@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "HistoricalSchedulerTimeConverter"
-- !private "StringLiteralType"
-- "VirtualTimeScheduler"
-- "RxTime"
-- !private "Date"
 - "HistoricalScheduler"
+- !private "StringLiteralType"
+- "RxTime"
+- "VirtualTimeScheduler"
+- !private "Date"
 depends-member:
 - !private ["Ps9AnyObject", "Date"]
 - !private ["Ps9AnyObject", "HistoricalSchedulerTimeConverter"]

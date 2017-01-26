@@ -16,23 +16,23 @@ provides-member:
 - ["C7RxSwift3Map", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Cancelable"
-- "ObserverType"
-- "Int"
-- "MapWithIndexSink"
 - !private "incrementChecked"
+- "FloatLiteralType"
 - "Map"
+- "Event"
+- "IntegerLiteralType"
+- "AssignmentPrecedence"
+- "Sink"
+- "MapWithIndexSink"
 - "Observable"
 - !private "StringLiteralType"
-- "Sink"
-- "Event"
-- "AssignmentPrecedence"
+- "MapWithIndex"
 - "Disposable"
+- "Cancelable"
+- "Int"
 - "Producer"
 - "MapSink"
-- "IntegerLiteralType"
-- "MapWithIndex"
-- "FloatLiteralType"
+- "ObserverType"
 depends-member:
 - ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "Map"]

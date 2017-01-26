@@ -7,8 +7,8 @@ provides-member:
 - ["P7RxSwift25ObservableConvertibleType", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ObservableConvertibleType"
 - "Observable"
+- "ObservableConvertibleType"
 depends-member:
 - ["P7RxSwift25ObservableConvertibleType", "E"]
 - ["P7RxSwift25ObservableConvertibleType", "Observable"]

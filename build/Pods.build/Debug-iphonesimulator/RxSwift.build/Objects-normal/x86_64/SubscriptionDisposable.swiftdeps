@@ -7,10 +7,10 @@ provides-member:
 - ["V7RxSwift22SubscriptionDisposable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SynchronizedUnsubscribeType"
-- "AssignmentPrecedence"
 - "Disposable"
+- "AssignmentPrecedence"
 - "SubscriptionDisposable"
+- "SynchronizedUnsubscribeType"
 depends-member:
 - !private ["P7RxSwift10Disposable", "_key"]
 - !private ["P7RxSwift10Disposable", "_owner"]
